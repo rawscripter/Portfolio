@@ -9,8 +9,8 @@
     border: 1px solid rgba(0, 0, 0, 0.486);
 
 }
-.project img{
-    height: 200vh; 
+.project-image{
+    height: 200px; 
     width: 220px;
 }
 
