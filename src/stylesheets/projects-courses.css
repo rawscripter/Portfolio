@@ -1,0 +1,22 @@
+.projects-intro .primary-button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.project{
+    padding: 20px ;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+
+}
+.project img{
+    height: 200vh; 
+    width: 220px;
+}
+
+/* The css for .project and .project img doesnt affect the images on the page at all...Send help!*/
+
+.courses-intro{
+    height: 100vh;
+    background-size: 100% 100%;
+}
