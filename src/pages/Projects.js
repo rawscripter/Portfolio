@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/header';
 import { FaLaptopCode } from 'react-icons/fa'
 import projectsdata from "../pages/projectsdata";
+import '../stylesheets/projects-courses.css'
 function Projects() {
   return (
     <div>
@@ -38,7 +39,7 @@ function Projects() {
           {projectsdata.map(project => {
             return <div className="col-md-4">
               <div className="position-relative project">
-                <img src={project.image} alt=""/>
+                <img className='project-image' src={project.image} alt="" />
                 <div className="project-content">
                   <h3>{project.title}</h3>
                   <hr />
@@ -49,17 +50,8 @@ function Projects() {
             </div>
           })}
 
-
         </div>
-
-
-
       </div>
-
-
-
-
-
     </div>
   );
 }
